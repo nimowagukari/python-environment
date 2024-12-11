@@ -3,7 +3,7 @@ on:
   pull_request:
     paths:
       - "src/**"
-      - "test/**"
+      - "tests/**"
 jobs:
   ci:
     runs-on: ubuntu-latest
