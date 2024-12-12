@@ -17,5 +17,6 @@
     },
     "[jsonc]": {
         "files.insertFinalNewline": true
-    }
+    },
+    "python.analysis.typeCheckingMode": "strict"
 }
