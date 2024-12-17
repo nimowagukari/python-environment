@@ -1,7 +1,11 @@
-# python-environment
+# Example Package
 
 ## やること
 
-- VSCode Extension によるテストが動作するようにする
-- Linter, Formatter が動作するようにする
-- Pylance 言語サーバの動作検証
+- monorepo での複数パッケージのビルド・デプロイのテスト
+  - 名前空間パッケージ
+- pyproject.toml の仕様把握
+- CLI ツールのビルドとインストール、動作確認
+- CI/CD
+
+v0.2.3

@@ -1,0 +1,22 @@
+[project]
+name = "example_package_nimowagukari"
+version = "0.2.3"
+authors = [
+  { name="nimowagukari", email="nimowagukari+testpypi@outlook.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.urls]
+Homepage = "https://github.com/nimowagukari/python-environment"
+Issues = "https://github.com/nimowagukari/python-environment/issues"
