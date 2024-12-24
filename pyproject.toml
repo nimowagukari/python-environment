@@ -1,12 +1,20 @@
 [project]
 name = "nimowagukari_examples"
-version = "0.1.10"
+version = "0.1.11"
 description = "Add your description here"
 readme = "README.md"
 authors = [{ name = "nimowagukari", email = "nimowagukari@outlook.com" }]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "nimowagukari-examples-ext1",
+]
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.uv.workspace]
+members = ["packages/nimowagukari_examples_ext1"]
+
+[tool.uv.sources]
+nimowagukari-examples-ext1 = { workspace = true }
