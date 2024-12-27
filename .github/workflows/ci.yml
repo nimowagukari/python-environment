@@ -20,7 +20,7 @@ jobs:
         run: uv sync
 
       - name: Display Python version
-        run: python -c "import sys; print(sys.version); print(sys.executable); print(sys.path)"
+        run: uv run python -c "import sys; print(sys.version); print(sys.executable); print(sys.path)"
 
       - name: Run unittest
         run: |
