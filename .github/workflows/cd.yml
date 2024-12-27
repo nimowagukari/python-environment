@@ -5,9 +5,6 @@ on:
       - "pyproject.toml"
       - "src/**"
       - "tests/**"
-      - "packages/nimowagukari_examples_ext1/pyproject.toml"
-      - "packages/nimowagukari_examples_ext1/src/**"
-      - "packages/nimowagukari_examples_ext1/test/**"
     types:
       - closed
 jobs:
