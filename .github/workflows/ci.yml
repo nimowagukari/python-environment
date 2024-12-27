@@ -2,8 +2,12 @@ name: CI
 on:
   pull_request:
     paths:
+      - "pyproject.toml"
       - "src/**"
       - "tests/**"
+      - "packages/nimowagukari_examples_ext1/pyproject.toml"
+      - "packages/nimowagukari_examples_ext1/src/**"
+      - "packages/nimowagukari_examples_ext1/test/**"
 jobs:
   ci:
     runs-on: ubuntu-latest
